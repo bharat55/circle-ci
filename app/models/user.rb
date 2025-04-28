@@ -1,4 +1,4 @@
 class User < ApplicationRecord
-  validates :name, presence: true,
-  has_many :posts, dependent: destroy
+  validates :name, presence: true
+  has_many :posts
 end
