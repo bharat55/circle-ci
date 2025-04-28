@@ -298,6 +298,8 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     sexp_processor (4.17.3)
+    shoulda-matchers (6.5.0)
+      activesupport (>= 5.2.0)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
       logger
@@ -364,6 +366,7 @@ DEPENDENCIES
   rubocop-rails
   rubocop-rails-omakase
   selenium-webdriver
+  shoulda-matchers (~> 6.5)
   sprockets-rails
   stimulus-rails
   turbo-rails
